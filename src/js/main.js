@@ -1,2 +1,4 @@
+import "./plugins.js";
 
-console.log("--- David Jense's Website ---");
+
+console.log("--- David Jensen's Website ---");

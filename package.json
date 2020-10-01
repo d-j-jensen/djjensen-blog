@@ -9,7 +9,7 @@
     "watch": "run-p serve watch:*",
     "serve": "browser-sync start --server \"dist\" --files \"dist\"",
     "---CSS---": "",
-    "css:scss": "node-sass --output-style compressed -o dist src/scss",
+    "css:scss": "node-sass --include-path node_modules/normalize-scss/sass --output-style compressed -o dist src/scss",
     "css:autoprefixer": "postcss -u autoprefixer -r dist/*.css",
     "css:lint": "stylelint src/scss/*.scss --syntax scss || true",
     "---BUILD---": "",
@@ -60,6 +60,7 @@
     "webpack-cli": "^3.3.12"
   },
   "dependencies": {
+    "normalize-scss": "^7.0.1",
     "postcss": "^8.1.1"
   }
 }
