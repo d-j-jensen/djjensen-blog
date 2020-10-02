@@ -1,0 +1,55 @@
+@import 'normalize';
+@import 'theme-harsh-ocean';
+
+@include normalize();
+
+/*
+    $primary: $gunmetal; // used for most text 
+    $secondary: $fire-engine-red; // used for text which is lower in the visual hierarchy 
+    $background: $deep-champagne; // used as the background color of the whole site 
+    $surface: $slate-gray; // used as the background on components 
+    $hint: $powder-blue; // used for text hints (such as those in text fields and labels) 
+    $icon: $blizzard-blue; // used for icons 
+*/
+
+:root {
+    color: $primary;
+    background-color: $background;
+}
+
+body {
+    margin: clamp(1em, 5vw, 5em);
+}
+
+h1 {
+    font-size: 2rem;
+    font-size: clamp(2rem, 3vw, 2.5rem);
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-size: clamp(1.33rem, 2.75vw, 2rem);
+}
+
+h3 {
+    font-size: 1rem;
+    font-size: clamp(1rem, 2.25vw, 1.33rem);
+}
+
+p {
+    font-size: clamp(1em, 2vw, 2em);
+}
+
+ul {
+    display: inline-block;
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
+}
+
+li {
+    list-style-type: none;
+}

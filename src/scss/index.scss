@@ -1,17 +1,8 @@
-@import 'normalize';
-@import 'theme-harsh-ocean';
+@import 'global';
 
-@include normalize();
-
-/*
-    $primary: $gunmetal; // used for most text 
-    $secondary: $fire-engine-red; // used for text which is lower in the visual hierarchy 
-    $background: $deep-champagne; // used as the background color of the whole site 
-    $surface: $slate-gray; // used as the background on components 
-    $hint: $powder-blue; // used for text hints (such as those in text fields and labels) 
-    $icon: $blizzard-blue; // used for icons 
-*/
-
-body {
-    color: $primary;
+.main-menu {
+    a {
+        color: inherit;
+        text-decoration: inherit;
+    }
 }

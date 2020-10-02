@@ -6,18 +6,18 @@ $slate-gray: #6c809aff;
 $powder-blue: #9ad1d4ff;
 $blizzard-blue: #aeecefff;
 
-$primary: $gunmetal;
 /* used for most text */
-$secondary: $fire-engine-red;
+$primary: $gunmetal;
 /* used for text which is lower in the visual hierarchy */
-$background: $deep-champagne;
+$secondary: $fire-engine-red;
 /* used as the background color of the whole site */
-$surface: $slate-gray;
+$background: $deep-champagne;
 /* used as the background on components */
-$hint: $powder-blue;
+$surface: $slate-gray;
 /* used for text hints (such as those in text fields and labels) */
-$icon: $blizzard-blue;
+$hint: $powder-blue;
 /* used for icons */
+$icon: $blizzard-blue;
 
 $on-primary-light: $primary;
 $on-primary-dark: darken($primary, 30%);
