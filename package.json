@@ -13,7 +13,7 @@
     "css:autoprefixer": "postcss -u autoprefixer -r dist/*.css",
     "css:lint": "stylelint src/scss/*.scss --syntax scss || true",
     "---BUILD---": "",
-    "build:css": "npm run css:lint && npm run css:scss && npm run css:autoprefixer",
+    "build:css": "npm run css:lint && npm run css:scss",
     "build:images": "imagemin src/images/**/* --out-dir=dist/images",
     "build:js": "webpack --mode=production",
     "build:html": "posthtml -c posthtml.json",

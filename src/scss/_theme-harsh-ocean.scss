@@ -6,26 +6,9 @@ $slate-gray: #6c809aff;
 $powder-blue: #9ad1d4ff;
 $blizzard-blue: #aeecefff;
 
-/* used for most text */
-$primary: $gunmetal;
-/* used for text which is lower in the visual hierarchy */
-$secondary: $fire-engine-red;
-/* used as the background color of the whole site */
+$primary: $blizzard-blue;
+$secondary: $gunmetal;
 $background: $deep-champagne;
-/* used as the background on components */
 $surface: $slate-gray;
-/* used for text hints (such as those in text fields and labels) */
 $hint: $powder-blue;
-/* used for icons */
 $icon: $blizzard-blue;
-
-$on-primary-light: $primary;
-$on-primary-dark: darken($primary, 30%);
-$on-secondary-light: $secondary;
-$on-secondary-dark: darken($secondary, 30%);
-$on-hint-light: $hint;
-$on-hint-dark: darken($hint, 30%);
-$on-disabled-light: desaturate($primary, 40%);
-$on-disabled-dark: darken(desaturate($primary, 40%), 30%);
-$on-icon-light: $icon;
-$on-icon-dark: darken($icon, 30%);
