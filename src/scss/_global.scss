@@ -51,7 +51,6 @@ $small-header-font-size: clamp(1rem, 2.25vw, 1.33rem);
     @include text-contrast($primary);
 
     font-family: "Crimson Pro", serif;
-    font-size: 14px;
 }
 
 h1,
@@ -92,7 +91,7 @@ section,
     background-size: 750px 525px, cover;
     background-position: 70% 50%, 0 0;
 
-    padding: 5em 0;
+    padding: 7em 0 1em 0;
     margin: 0;
     grid-column: 1 / -1;
     grid: $section-grid-dims;
@@ -104,7 +103,7 @@ section,
 
     article header {
         font-size: 1rem;
-        font-size: clamp(1rem, 2.25vw, 1.33rem);
+        font-size: clamp(1.2rem, 2.66vw, 1.66rem);
     }
 
 }
@@ -120,7 +119,9 @@ nav.main-menu {
 
     ul {
         display: flex;
-        justify-content: space-between;
+        flex-wrap: wrap;
+
+        max-width: 800px;
 
         list-style-type: none;
         margin-block-start: 0;
@@ -130,7 +131,10 @@ nav.main-menu {
         padding-inline-start: 0;
 
         li {
+            flex: 1 0 8rem;
+            text-align: center;
             list-style-type: none;
+            height: 3rem;
         }
     }
 }
